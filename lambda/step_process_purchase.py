@@ -18,8 +18,3 @@ def lambda_handler(event, context):
     
     return response
     
-
-
-arn:aws:lambda:ap-south-1:339713133450:function:ProcessPurchase
-
-arn:aws:lambda:ap-south-1:339713133450:function:processRefund

@@ -7,7 +7,7 @@ def lambda_handler(event, context):
     inputForInvoker = {'CustomerId' : 'C2626', 'CustomerName' : 'John Doe'}
     
     response = client.invoke(
-        FunctionName="arn:aws:lambda:ap-south-1:339713133450:function:LambdaToInvoke",
+        FunctionName="INSERT LAMBDA TO BE INVOKED ARN HERE",
         InvocationType='RequestResponse', # Event -> Async, DryRun RequestResponse -> RequestResponse
         Payload=json.dumps(inputForInvoker)
     )
